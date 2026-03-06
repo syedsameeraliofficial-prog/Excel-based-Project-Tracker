@@ -1,0 +1,20 @@
+𝐈 𝐕𝐨𝐥𝐮𝐧𝐭𝐚𝐫𝐢𝐥𝐲 𝐁𝐮𝐢𝐥𝐭 𝐚𝐧 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐞𝐝 𝐄𝐱𝐜𝐞𝐥-𝐛𝐚𝐬𝐞𝐝 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐓𝐫𝐚𝐜𝐤𝐞𝐫.
+
+For the past few weeks, I was assigned to a project by my Company.
+(Some Columns are hidden due to Confidentiality)
+While going through the workflow, I realized that keeping track of daily progress, assignments, and overall completion could quickly become messy if done manually. So, I decided to build a small Excel-based project tracker on my own to make the process clearer and easier to monitor.
+
+The goal was simple:
+Create a quick way to track progress, visualize daily output, and understand overall performance.
+The tracker now helps with:
+• Monitoring daily work done by each agent
+• Calculating working days and daily averages automatically
+• Tracking total completed entries
+• Highlighting high productivity days
+• Dynamically listing brands handled in the project
+
+To make it dynamic, I used functions like:
+• Copying the updated data from Google sheets to Excel
+• LET + XLOOKUP for status tracking,
+• UNIQUE + FILTER for automatically listing assigned brands
+• COUNTA with spill ranges to keep totals updated.
